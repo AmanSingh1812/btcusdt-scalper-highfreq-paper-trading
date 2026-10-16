@@ -24,7 +24,6 @@
     962360
   ],
   "pivot_low_vals": [
-    82112.01,
     82168.0,
     82168.0,
     82168.0,
@@ -33,10 +32,10 @@
     82123.24,
     81689.76,
     81868.0,
-    81521.19
+    81521.19,
+    81300.0
   ],
   "pivot_low_bars": [
-    962264,
     962272,
     962273,
     962274,
@@ -45,13 +44,14 @@
     962320,
     962339,
     962343,
-    962354
+    962354,
+    962366
   ],
   "sell_fired": false,
   "buy_fired": false,
   "equity": 100.44986501561254,
   "position": null,
-  "last_processed_index": 962368,
+  "last_processed_index": 962369,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m-highfreq",
   "qty_pct_of_equity": 0.5,
