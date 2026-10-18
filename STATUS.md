@@ -1,26 +1,29 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 50% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-18T00:58:05.945091+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 50% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-18T01:46:18.162522+00:00_
 
 ## Current State
 
-- Equity: **100.43 USDT** (started at 100.00)
-- Last processed bar: 2026-10-18 00:50:00+00:00
-- Position: **SHORT** 0.000616 BTC @ 81471.59 (SL 81523.72, TP1 81393.45, TP2 81341.34, TP1 filled: False)
+- Equity: **100.40 USDT** (started at 100.00)
+- Last processed bar: 2026-10-18 01:40:00+00:00
+- Position: **LONG** 0.000308 BTC @ 81567.59 (SL 81442.82, TP1 81754.70, TP2 81879.45, TP1 filled: True)
+- Signal(s) this run: ['BUY score 4/6 @ 81567.57 (2026-10-18T01:05:00.000000)']
 
 ## Genuine Live Stats (since deployment)
 
-- Total trades: 5
-- Win rate: 60.00%
-- Total PnL: 0.45 USDT (0.45%)
-- Profit factor: 2.876
-- CAGR: 53.55%/year
-- Max drawdown: -0.24%
+- Total trades: 7
+- Win rate: 57.14%
+- Total PnL: 0.41 USDT (0.41%)
+- Profit factor: 2.329
+- CAGR: 49.80%/year
+- Max drawdown: -0.31%
 
 ## Most Recent Trades
 
 | Entry time | Side | Exit reason | Entry | Exit | Bars held | PnL |
 |---|---|---|---|---|---|---|
+| 2026-10-18 01:05:00 | long | TP1 | 81567.59 | 81754.70 | 7 | 0.04 |
+| 2026-10-18 00:00:00 | short | SL | 81471.59 | 81523.74 | 11 | -0.07 |
 | 2026-10-16 01:05:00 | short | SL | 82296.49 | 82466.47 | 2 | -0.14 |
 | 2026-10-15 20:50:00 | long | SL | 82075.99 | 81985.70 | 1 | -0.10 |
 | 2026-10-15 15:05:00 | long | TIME | 82200.06 | 82444.40 | 48 | 0.11 |
