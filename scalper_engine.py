@@ -31,8 +31,7 @@ import pandas as pd
 
 MINTICK = 0.01
 INITIAL_CAPITAL = 100.0
-QTY_PCT_OF_EQUITY = 0.50  # see README - clears the swing bot's 12%/yr target (13.52%/yr) at
-# -3.13% max DD over the full 9-year backtest, vs. the swing bot's -15.82% DD for a similar CAGR
+QTY_PCT_OF_EQUITY = 1.00  # see README - backtested: CAGR 46.56%/yr, max DD -7.05%
 
 ATR_LEN = 14
 ZONE_PCT = 0.8  # widened from 0.2% - see README, trades a bit of win rate for ~2.5x trade frequency
