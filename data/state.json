@@ -51,7 +51,7 @@
   "buy_fired": false,
   "equity": 100.49081675647288,
   "position": null,
-  "last_processed_index": 962859,
+  "last_processed_index": 962860,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m-highfreq",
   "qty_pct_of_equity": 0.5,
