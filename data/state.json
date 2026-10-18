@@ -54,7 +54,7 @@
   "last_processed_index": 962968,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m-highfreq",
-  "qty_pct_of_equity": 0.5,
+  "qty_pct_of_equity": 1.0,
   "zone_pct": 0.8,
   "score_threshold": 1,
   "rr1": 1.5,
