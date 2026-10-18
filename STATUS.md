@@ -1,12 +1,13 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-18T22:18:15.696639+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-18T22:20:29.995194+00:00_
 
 ## Current State
 
-- Equity: **100.49 USDT** (started at 100.00)
-- Last processed bar: 2026-10-18 22:10:00+00:00
-- Position: **flat**
+- Equity: **100.45 USDT** (started at 100.00)
+- Last processed bar: 2026-10-18 22:15:00+00:00
+- Position: **LONG** 0.001232 BTC @ 81560.26 (SL 80906.21, TP1 82541.29, TP2 83195.32, TP1 filled: False)
+- Signal(s) this run: ['BUY score 3/6 @ 81560.24 (2026-10-18T22:15:00.000000)']
 
 ## Genuine Live Stats (since deployment)
 
@@ -14,7 +15,7 @@ _Simulator only. No real money, no exchange account, no API keys. 5-minute bars,
 - Win rate: 62.50%
 - Total PnL: 0.49 USDT (0.49%)
 - Profit factor: 2.572
-- CAGR: 63.17%/year
+- CAGR: 56.77%/year
 - Max drawdown: -0.31%
 
 ## Most Recent Trades
