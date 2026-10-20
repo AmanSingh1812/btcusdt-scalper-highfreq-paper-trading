@@ -1,27 +1,29 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-20T19:16:18.236975+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, zone 0.8% of level, score>=1/6, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing - widened from ../scalper bot (0.2% zone, score>=3) for ~2.5x trade frequency. See README. Last updated: 2026-10-20T21:01:45.485761+00:00_
 
 ## Current State
 
-- Equity: **102.05 USDT** (started at 100.00)
-- Last processed bar: 2026-10-20 19:10:00+00:00
+- Equity: **102.18 USDT** (started at 100.00)
+- Last processed bar: 2026-10-20 20:55:00+00:00
 - Position: **flat**
-- Signal(s) this run: ['BUY score 3/6 @ 82418.20 (2026-10-20T15:10:00.000000)']
+- Signal(s) this run: ['BUY score 2/6 @ 82405.28 (2026-10-20T19:20:00.000000)']
 
 ## Genuine Live Stats (since deployment)
 
-- Total trades: 15
-- Win rate: 73.33%
-- Total PnL: 2.05 USDT (2.05%)
-- Profit factor: 5.315
-- CAGR: 242.98%/year
+- Total trades: 17
+- Win rate: 76.47%
+- Total PnL: 2.18 USDT (2.18%)
+- Profit factor: 5.602
+- CAGR: 271.97%/year
 - Max drawdown: -0.31%
 
 ## Most Recent Trades
 
 | Entry time | Side | Exit reason | Entry | Exit | Bars held | PnL |
 |---|---|---|---|---|---|---|
+| 2026-10-20 19:20:00 | long | TP2 | 82405.30 | 82625.20 | 5 | 0.10 |
+| 2026-10-20 19:20:00 | long | TP1 | 82405.30 | 82537.23 | 4 | 0.04 |
 | 2026-10-20 15:10:00 | long | TIME | 82418.22 | 82536.07 | 48 | 0.03 |
 | 2026-10-20 15:10:00 | long | TP1 | 82418.22 | 82801.58 | 19 | 0.20 |
 | 2026-10-20 03:05:00 | long | TIME | 81848.03 | 81783.56 | 48 | -0.16 |
@@ -35,8 +37,6 @@ _Simulator only. No real money, no exchange account, no API keys. 5-minute bars,
 | 2026-10-16 01:05:00 | short | SL | 82296.49 | 82466.47 | 2 | -0.14 |
 | 2026-10-15 20:50:00 | long | SL | 82075.99 | 81985.70 | 1 | -0.10 |
 | 2026-10-15 15:05:00 | long | TIME | 82200.06 | 82444.40 | 48 | 0.11 |
-| 2026-10-14 09:10:00 | short | TIME | 83477.98 | 82410.12 | 49 | 0.30 |
-| 2026-10-14 09:10:00 | short | TP1 | 83477.98 | 82474.85 | 48 | 0.28 |
 
 ## Backtest reference (not live balance)
 
