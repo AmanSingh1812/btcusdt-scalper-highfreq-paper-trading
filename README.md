@@ -1,16 +1,20 @@
-# Multi-Symbol Scalper (High-Frequency) — Live Paper Trading
+# BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-A sibling of [`../scalper bot`](../scalper%20bot) — same engine, same
-multi-symbol setup (**BTCUSDT, ETHUSDT, XRPUSDT independently**, each
-with its own $100 equity pool), same 5m PDH/PDL confluence signal with
-tight R:R and a hard time-stop, but with the entry criteria widened to
-trade roughly **2.5x more often**, because the original config averages
-only ~0.4 trades/day (see that repo's history for why "at least one
-trade a day" turned out to be a higher bar than the original strategy
-was ever validated at, and for the XRP tick-size bug story - this repo
-inherits the same `scalper_engine.TICK_SIZES` fix).
+A sibling of [`../scalper bot`](../scalper%20bot) — same engine, same 5m
+PDH/PDL confluence signal with tight R:R and a hard time-stop, but with
+the entry criteria widened to trade roughly **2.5x more often**, because
+the original config averages only ~0.4 trades/day (see that repo's
+history for why "at least one trade a day" turned out to be a higher bar
+than the original strategy was ever validated at).
 
-## Multi-symbol backtest (100% sizing, full available history per symbol)
+## ETH/XRP: tried, validated, reverted by request (not because they failed)
+
+This repo briefly traded BTCUSDT, ETHUSDT, and XRPUSDT independently
+(each its own $100 equity pool), inheriting `../scalper bot`'s
+`scalper_engine.TICK_SIZES` fix (XRP's real Binance tick is 0.0001, not
+0.01 - using the wrong one originally produced a fake "account
+destroyed" backtest result). Full validated numbers (100% sizing, full
+available history per symbol):
 
 | Symbol | History | Trades | Trades/day | Win rate | PF | CAGR | Max DD |
 |---|---|---|---|---|---|---|---|
@@ -18,9 +22,13 @@ inherits the same `scalper_engine.TICK_SIZES` fix).
 | ETHUSDT | 9.2yr | 2797 | 0.83 | 72.4% | 2.46 | 71.27%/yr | -8.58% |
 | XRPUSDT | 8.4yr | 2470 | 0.80 | 73.8% | 2.22 | 65.34%/yr | -5.99% |
 
-Same pattern as the lower-frequency original: the edge transfers cleanly
-to both new symbols, with ETH and XRP actually showing *higher* CAGR than
-BTC here.
+Same pattern as the lower-frequency original: the edge transferred
+cleanly to both new symbols, with ETH and XRP actually showing *higher*
+CAGR than BTC here. **Reverted back to BTC-only by request** - the
+ETH/XRP data and live trade history were removed, but
+`fetch_data.py`/`paper_trade.py` still loop over a `SYMBOLS` list
+(currently just `["BTCUSDT"]`), so re-adding either symbol later is a
+one-line change plus a re-fetch, not a rebuild.
 
 ## What's different from `../scalper bot`
 
