@@ -1,11 +1,11 @@
 # Multi-Symbol Scalper — Live Paper Trading (5m PDH/PDL confluence, time-capped)
 
-_Simulator only. No real money, no exchange account, no API keys. Each symbol below runs completely independently - its own $100 equity pool, own trade log. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-10-22T01:54:17.152515+00:00_
+_Simulator only. No real money, no exchange account, no API keys. Each symbol below runs completely independently - its own $100 equity pool, own trade log. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-10-22T01:56:50.344145+00:00_
 
 ## BTCUSDT
 
 - Equity: **102.18 USDT** (started at 100.00)
-- Last processed bar: 2026-10-22 01:45:00+00:00
+- Last processed bar: 2026-10-22 01:50:00+00:00
 - Position: **flat**
 
 **Live stats**: 17 trades, 76.47% win rate, PF 5.602, CAGR 271.97%/yr, max DD -0.31%
@@ -21,7 +21,7 @@ _Simulator only. No real money, no exchange account, no API keys. Each symbol be
 ## ETHUSDT
 
 - Equity: **99.96 USDT** (started at 100.00)
-- Last processed bar: 2026-10-22 01:45:00+00:00
+- Last processed bar: 2026-10-22 01:50:00+00:00
 - Position: **LONG** 0.040720 @ 2455.81000 (SL 2452.35768, TP1 2460.93848, TP2 2464.37081, TP1 filled: False)
 
 **Live stats**: no trades yet since deployment - equity is exactly the $100 starting balance.
@@ -29,7 +29,7 @@ _Simulator only. No real money, no exchange account, no API keys. Each symbol be
 ## XRPUSDT
 
 - Equity: **100.00 USDT** (started at 100.00)
-- Last processed bar: 2026-10-22 01:45:00+00:00
+- Last processed bar: 2026-10-22 01:50:00+00:00
 - Position: **flat**
 
 **Live stats**: no trades yet since deployment - equity is exactly the $100 starting balance.
