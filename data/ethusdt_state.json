@@ -24,7 +24,6 @@
     963903
   ],
   "pivot_low_vals": [
-    2503.81,
     2503.49,
     2512.88,
     2483.85,
@@ -33,10 +32,10 @@
     2491.08,
     2487.41,
     2477.63,
-    2470.53
+    2470.53,
+    2475.15
   ],
   "pivot_low_bars": [
-    963811,
     963819,
     963829,
     963843,
@@ -45,13 +44,14 @@
     963865,
     963881,
     963890,
-    963899
+    963899,
+    963907
   ],
   "sell_fired": false,
   "buy_fired": false,
   "equity": 100.0,
   "position": null,
-  "last_processed_index": 963909,
+  "last_processed_index": 963910,
   "live_since": "2026-10-20 22:40:00+00:00",
   "engine": "scalper-pdh-pdl-5m",
   "symbol": "ETHUSDT",
