@@ -47,11 +47,11 @@
     965022,
     965029
   ],
-  "sell_fired": true,
+  "sell_fired": false,
   "buy_fired": false,
   "equity": 102.00128596197968,
   "position": null,
-  "last_processed_index": 965046,
+  "last_processed_index": 965047,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m",
   "symbol": "BTCUSDT",
