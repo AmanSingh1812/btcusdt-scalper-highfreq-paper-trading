@@ -24,7 +24,6 @@
     965159
   ],
   "pivot_low_vals": [
-    80249.91,
     79859.64,
     79900.0,
     79420.0,
@@ -33,10 +32,10 @@
     79970.0,
     79970.0,
     79958.0,
-    79673.8
+    79673.8,
+    80223.52
   ],
   "pivot_low_bars": [
-    965029,
     965051,
     965064,
     965074,
@@ -45,13 +44,26 @@
     965132,
     965134,
     965143,
-    965151
+    965151,
+    965162
   ],
-  "sell_fired": false,
+  "sell_fired": true,
   "buy_fired": false,
-  "equity": 102.00128596197968,
-  "position": null,
-  "last_processed_index": 965164,
+  "equity": 101.96048544759488,
+  "position": {
+    "side": "short",
+    "entry_time": "2026-10-26T09:20:00",
+    "entry_bar": 965165,
+    "entry_px": 80478.23999999999,
+    "qty_total": 0.001267439322256298,
+    "qty_remaining": 0.001267439322256298,
+    "sl": 80579.30132599108,
+    "tp1": 80326.69801101336,
+    "tp2": 80225.65668502229,
+    "tp1_filled": false,
+    "entry_comm_total": 0.040800514384791875
+  },
+  "last_processed_index": 965165,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m",
   "symbol": "BTCUSDT",
