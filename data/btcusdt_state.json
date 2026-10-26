@@ -51,7 +51,7 @@
   "buy_fired": true,
   "equity": 101.22453225763185,
   "position": null,
-  "last_processed_index": 965337,
+  "last_processed_index": 965338,
   "live_since": "2026-10-13 23:15:00+00:00",
   "engine": "scalper-pdh-pdl-5m",
   "symbol": "BTCUSDT",
