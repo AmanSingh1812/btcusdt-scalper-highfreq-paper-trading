@@ -1,13 +1,13 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-12T22:23:36.109272+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-13T02:47:43.596697+00:00_
 
-**News sentiment**: -0.388 (bearish) - RSS keyword score -0.647 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-12T22:23:20.373633+00:00
+**News sentiment**: -0.388 (bearish) - RSS keyword score -0.647 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-13T02:47:29.309992+00:00
 
 ## BTCUSDT
 
 - Equity: **103.94 USDT** (started at 100.00)
-- Last processed bar: 2026-11-12 22:15:00+00:00
+- Last processed bar: 2026-11-13 02:40:00+00:00
 - Position: **flat**
 
 **Live stats**: 59 trades, 66.10% win rate, PF 1.886, CAGR 65.64%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
