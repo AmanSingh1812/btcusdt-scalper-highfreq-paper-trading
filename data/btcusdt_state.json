@@ -24,7 +24,6 @@
     971373
   ],
   "pivot_low_vals": [
-    64228.01,
     64826.0,
     64757.15,
     64716.0,
@@ -33,10 +32,10 @@
     64956.0,
     65252.0,
     65298.12,
-    65188.0
+    65188.0,
+    64788.11
   ],
   "pivot_low_bars": [
-    971295,
     971311,
     971317,
     971324,
@@ -45,13 +44,14 @@
     971356,
     971364,
     971372,
-    971377
+    971377,
+    971385
   ],
   "sell_fired": false,
   "buy_fired": false,
   "equity": 104.66941421073102,
   "position": null,
-  "last_processed_index": 971383,
+  "last_processed_index": 971392,
   "live_since": "2026-10-13 23:15:00+00:00",
   "news_blocked_buy_count": 0,
   "news_blocked_sell_count": 0,
