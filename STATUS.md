@@ -1,18 +1,18 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-23T11:20:03.413407+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-23T22:49:53.880318+00:00_
 
-**News sentiment**: -0.537 (bearish) - RSS keyword score -0.895 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-23T11:19:47.999458+00:00
+**News sentiment**: -0.280 (bearish) - RSS keyword score -0.467 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-23T22:49:35.119229+00:00
 
 ## BTCUSDT
 
-- Equity: **104.72 USDT** (started at 100.00)
-- Last processed bar: 2026-11-23 11:15:00+00:00
+- Equity: **104.67 USDT** (started at 100.00)
+- Last processed bar: 2026-11-23 22:40:00+00:00
 - Technical setups blocked by news gate since reset: 1 long(s), 0 short(s)
-- Position: **flat**
-- Signal(s) this run: ['NEWS BLOCKED a qualifying long @ 61368.23 (2026-11-23T11:15:00.000000)']
+- Position: **SHORT** 0.001709 @ 61273.10000 (SL 61454.51000, TP1 61001.03500, TP2 60819.64500, TP1 filled: False)
+- Signal(s) this run: ['SELL score 2/6 @ 61273.12 (2026-11-23T22:05:00.000000)']
 
-**Live stats**: 64 trades, 67.19% win rate, PF 1.988, CAGR 64.05%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
+**Live stats**: 64 trades, 67.19% win rate, PF 1.988, CAGR 63.35%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
 
 | Entry time | Side | Exit reason | Entry | Exit | Bars held | PnL | Trigger |
 |---|---|---|---|---|---|---|---|
