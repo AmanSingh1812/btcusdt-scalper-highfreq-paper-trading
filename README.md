@@ -1,5 +1,7 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
+> **Correction, 2026-11-26:** the higher-timeframe trend filter used the close of a candle that had not finished yet (look-ahead). Every backtest and live result produced before this date is overstated and should not be relied on, including the performance numbers below. The filter now uses completed candles only; the live balance was reset to $100 and the old trade log archived in `data/` (`*lookahead_archive.csv`).
+
 A sibling of [`../scalper bot`](../scalper%20bot) — same engine, same 5m
 PDH/PDL confluence signal with tight R:R and a hard time-stop, but with
 the entry criteria widened to trade roughly **2.5x more often**, because

@@ -1,24 +1,15 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T21:02:53.021263+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T22:25:21.326471+00:00_
 
-**News sentiment**: -0.508 (bearish) - RSS keyword score -0.846 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T21:02:36.118998+00:00
+**News sentiment**: -0.514 (bearish) - RSS keyword score -0.857 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T22:25:00.249180+00:00
 
 ## BTCUSDT
 
-- Equity: **104.28 USDT** (started at 100.00)
-- Last processed bar: 2026-11-25 20:55:00+00:00
-- Technical setups blocked by news gate since reset: 1 long(s), 0 short(s)
-- Position: **LONG** 0.001744 @ 59810.03000 (SL 59004.13000, TP1 61018.83000, TP2 61824.71000, TP1 filled: False)
-- Signal(s) this run: ['BUY score 2/6 @ 59810.01 (2026-11-25T18:05:00.000000)']
+- Equity: **100.00 USDT** (started at 100.00)
+- Last processed bar: 2026-11-25 22:20:00+00:00
+- Technical setups blocked by news gate since reset: 0 long(s), 0 short(s)
+- Position: **flat**
 
-**Live stats**: 65 trades, 66.15% win rate, PF 1.836, CAGR 46.62%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
-
-| Entry time | Side | Exit reason | Entry | Exit | Bars held | PnL | Trigger |
-|---|---|---|---|---|---|---|---|
-| 2026-11-23 22:05:00 | short | SL | 61273.10000 | 61454.53000 | 13 | -0.39 | technical |
-| 2026-11-17 14:35:00 | short | TP2 | 65241.79000 | 64886.28902 | 3 | 0.24 | technical |
-| 2026-11-17 14:35:00 | short | TP1 | 65241.79000 | 65028.49741 | 2 | 0.13 | technical |
-| 2026-11-17 03:30:00 | short | SL | 65048.96000 | 65199.00749 | 1 | -0.33 | technical |
-| 2026-11-16 14:35:00 | short | TP2 | 65388.10000 | 64752.73763 | 6 | 0.46 | technical |
+**Live stats**: no trades yet since deployment - equity is exactly the $100 starting balance.
 
