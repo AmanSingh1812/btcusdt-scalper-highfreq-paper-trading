@@ -1,17 +1,18 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T11:46:02.964821+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T21:02:53.021263+00:00_
 
-**News sentiment**: -0.450 (bearish) - RSS keyword score -0.750 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T11:45:39.477723+00:00
+**News sentiment**: -0.508 (bearish) - RSS keyword score -0.846 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T21:02:36.118998+00:00
 
 ## BTCUSDT
 
-- Equity: **104.32 USDT** (started at 100.00)
-- Last processed bar: 2026-11-25 11:40:00+00:00
+- Equity: **104.28 USDT** (started at 100.00)
+- Last processed bar: 2026-11-25 20:55:00+00:00
 - Technical setups blocked by news gate since reset: 1 long(s), 0 short(s)
-- Position: **flat**
+- Position: **LONG** 0.001744 @ 59810.03000 (SL 59004.13000, TP1 61018.83000, TP2 61824.71000, TP1 filled: False)
+- Signal(s) this run: ['BUY score 2/6 @ 59810.01 (2026-11-25T18:05:00.000000)']
 
-**Live stats**: 65 trades, 66.15% win rate, PF 1.836, CAGR 47.16%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
+**Live stats**: 65 trades, 66.15% win rate, PF 1.836, CAGR 46.62%/yr, max DD -2.79% (0 news-triggered, +0.00 USDT from those)
 
 | Entry time | Side | Exit reason | Entry | Exit | Bars held | PnL | Trigger |
 |---|---|---|---|---|---|---|---|
