@@ -1,15 +1,16 @@
 # BTCUSDT Scalper (High-Frequency) — Live Paper Trading
 
-_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T22:25:21.326471+00:00_
+_Simulator only. No real money, no exchange account, no API keys. 5-minute bars, tight 1.5R/2.5R partials, hard 48-bar (240 min) time-stop, 100% position sizing. See README. Last updated: 2026-11-25T23:12:37.967939+00:00_
 
-**News sentiment**: -0.514 (bearish) - RSS keyword score -0.857 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T22:25:00.249180+00:00
+**News sentiment**: -0.514 (bearish) - RSS keyword score -0.857 over 57 headlines, GDELT global tone +0.000. Gate blocks counter-trend technical entries past ±0.4; autotrade can open a small (20% sized) news-only position past ±0.75 (forward-test only, not backtested - see README). Computed: 2026-11-25T23:12:17.607206+00:00
 
 ## BTCUSDT
 
 - Equity: **100.00 USDT** (started at 100.00)
-- Last processed bar: 2026-11-25 22:20:00+00:00
-- Technical setups blocked by news gate since reset: 0 long(s), 0 short(s)
+- Last processed bar: 2026-11-25 23:05:00+00:00
+- Technical setups blocked by news gate since reset: 1 long(s), 0 short(s)
 - Position: **flat**
+- Signal(s) this run: ['NEWS BLOCKED a qualifying long @ 60112.00 (2026-11-25T23:05:00.000000)']
 
 **Live stats**: no trades yet since deployment - equity is exactly the $100 starting balance.
 
