@@ -1,0 +1,2 @@
+side,entry_time,exit_time,reason,qty,entry_px,exit_px,bars_held,pnl,trigger
+long,2026-11-27 14:35:00,2026-11-27 14:40:00,SL,0.0016623713760927391,60155.03,59949.01810608453,1,-0.4223312882695008,technical
